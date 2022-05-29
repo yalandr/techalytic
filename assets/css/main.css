@@ -150,24 +150,6 @@ h3 {
     opacity: 1;
     transform: translateY(0);
 }
-@-webkit-keyframes blinking {
-    0% {
-        width: 25%;
-    } 50% {
-        width: 100%;
-    } 100% {
-        width: 25%;
-    }
-}
-@keyframes blinking {
-    0% {
-        width: 25%;
-    } 50% {
-        width: 100%;
-    } 100% {
-        width: 25%;
-    }
-}
 
 /*==== CUSTOM-STYLES ====*/
 .main-wrapper {
@@ -251,6 +233,9 @@ h3 {
 .form-heading .text-yellow {
     font-size: 22px;
     font-weight: 800;
+}
+.form .input-wrap {
+    margin: 15px 0
 }
 .form .input-wrap input {
     width: 100%;
